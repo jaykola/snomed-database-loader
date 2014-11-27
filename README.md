@@ -1,3 +1,9 @@
+NOTICE
+======
+This version has been forked from the IHTSDO version to adapt it for use in the IHTSDO Release Validation Framework (http://github.com/IHTSDO/release-validation-framework). This version drops the superfluous curr_ prefix in every table name. I think this was inherited from the Release Assertion Toolkit code from which I think the original version was created. 
+
+Please also refer to the schema statements in the SNOMED CT Technical Implementation Guide (http://snomed.org/tig) if you are thinking of using these scripts.
+
 SNOMED CT DATABASE 
 ===============
 MYSQL SQL Scripts to create and populate a MYSQL or PostgreSQL database with a SNOMED CT terminology release
